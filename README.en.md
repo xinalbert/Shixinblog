@@ -1,36 +1,36 @@
-# Shixinblog
+# Personal Gitee Homepage
 
-#### Description
-这里面将推送我自己测试过的软件和小脚本
+Welcome to my Gitee homepage! This is where I share my code and projects, as well as the problems I encounter while coding and their solutions (if I can solve them).
+Welcome everyone to communicate and learn together!
+## About Me
 
-#### Software Architecture
-Software architecture description
+- **Name**: Zhu Shixin
+- **Position/Role**: Bioinformatics Engineer
+- **Location**: Nanjing
+- **Contact Information**:
+  - Email: albert_xin@qq.com
+  - Blog: https://gitee.com/albertxin/shixinblog
+  - Other Social Media: [Bilibili](https://space.bilibili.com/273657073)
 
-#### Installation
+## Hobbies
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- Table Tennis
+- Python
+- Cycling
+- Photography
 
-#### Instructions
+## Education Background
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- Bachelor's Degree, Horticulture, Xichang College, June 2021
+- Master's Degree, Crop Genetics and Breeding, Fujian Agriculture and Forestry University, June 2024
 
-#### Contribution
+## Contact Me
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+If you are interested in my projects or have any questions, please feel free to contact me through the following methods:
 
+- Email: albert_xin@qq.com
+- Gitee: https://gitee.com/albertxin/shixinblog
 
-#### Gitee Feature
+## Copyright Statement
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+Copyright © [2024] [Zhu Shixin]. All rights reserved.

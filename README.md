@@ -1,37 +1,40 @@
-# Shixinblog
+# 个人Gitee主页
 
-#### 介绍
-这里面将推送我自己测试过的软件和小脚本
+欢迎来到我的Gitee主页！这里是我分享代码和项目的地方。
+以及分享我在写代码中遇到问题以及解决办法（如果能解决的话）。
+欢迎大家进行交流和讨论！
+## 关于我
 
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+- **姓名**：朱仕心
+- **职位/角色**：生信工程师
+- **所在地**：南京
+- **联系方式**：
+  - 邮箱：albert_xin@qq.com
+  - 博客：https://gitee.com/albertxin/shixinblog
+  - 其他社交媒体：[哔哩哔哩](https://space.bilibili.com/273657073)
 
 
-#### 特技
+## 爱好
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- 乒乓球
+- Python
+- 骑行
+- 拍照
+
+## 教育背景
+
+- 学士，园艺，西昌学院，2021.06
+- 硕士，作物遗传育种，福建农林大学，2024.06
+
+
+## 联系我
+
+如果你对我的项目感兴趣或有任何问题，欢迎通过以下方式联系我：
+
+- 邮箱：albert_xin@qq.com
+- Gitee：https://gitee.com/albertxin/shixinblog
+
+## 版权声明
+
+版权所有 © [2024] [朱仕心]。保留所有权利。
+
