@@ -1,8 +1,9 @@
 # 利用jcvi绘制共显性图
 
-## 安装jcvi 
+## 安装jcvi
 
 如果想看看其他安装方法可以去github上看看[jcvi安装](https://github.com/tanghaibao/jcvi)。
+
 ```bash
 # 本人习惯使用conda安装
 conda install bioconda::jcvi
@@ -36,6 +37,23 @@ python -m jcvi.graphics.karyotype seqids layout --notex
 ```
 
 ## 结果
+
 这里是我自己绘制的，你可以根据你自己的调整
+
 ![](./img/jcvi/reuslt.png)
+
 颜色可以在.smple文件的第一列添加十六进制的颜色代码和单字母颜色代码，比如#FF0000表示红色，R表示红色。
+
+# 利用awk匹配染色体名字
+
+```bash
+awk '/>C/ {print}' your_fasta_file.fa | awk -F '>' '{if (NF>1) print $2}'
+```
+
+# sed 结合awk
+
+```bash
+awk '{$1 ="rep_" $1;print}' Ech_vs_Min.jcvi.simple |sed 's/rep_EchE06G/#824b9f*EchE06G/g;s/rep_EchE05G/#009fda*EchE05G/g;s/rep_EchE04G/#4db77d*EchE04G/g;s/rep_EchE03G/#fff229*EchE03G/g;s/rep_EchE02G/#f3ab45*EchE02G/g;s/rep_EchE01G/#f0717b*EchE01G/g' |sed 's/rep_//g' >Ech_vs_Min.jcvi_c.simple
+awk '{$1 ="rep_" $1;print}' Ech_vs_Aly.jcvi.simple |sed 's/rep_EchE06G/#824b9f*EchE06G/g;s/rep_EchE05G/#009fda*EchE05G/g;s/rep_EchE04G/#4db77d*EchE04G/g;s/rep_EchE03G/#fff229*EchE03G/g;s/rep_EchE02G/#f3ab45*EchE02G/g;s/rep_EchE01G/#f0717b*EchE01G/g' |sed 's/rep_//g' >Ech_vs_Aly.jcvi_c.simple
+awk '{$1 ="rep_" $1;print}' Ech_vs_Ath.jcvi.simple |sed 's/rep_EchE06G/#824b9f*EchE06G/g;s/rep_EchE05G/#009fda*EchE05G/g;s/rep_EchE04G/#4db77d*EchE04G/g;s/rep_EchE03G/#fff229*EchE03G/g;s/rep_EchE02G/#f3ab45*EchE02G/g;s/rep_EchE01G/#f0717b*EchE01G/g' |sed 's/rep_//g' >Ech_vs_Ath.jcvi_c.simple
+```
