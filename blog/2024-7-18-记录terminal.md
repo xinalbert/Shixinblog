@@ -16,11 +16,9 @@ conda install bioconda::jcvi
  ![](./img/jcvi/jcvi_smiple_file_format.png)
 
 2. 准备两个基因组之间的的bed文件：
-
- ![](./img/jcvi/jcvi_bed_file_format.png)
+![](./img/jcvi/jcvi_bed_file_format.png)
 
 3. 准备seqids文件：
-
 根据jcvi[官方教程](https://github.com/tanghaibao/jcvi/wiki/MCscan-(Python-version))准备你的seqid文件，这里面的的顺序需要与你后面layout的顺序一致。
 ![](./img/jcvi/jcvi_seqids_foramt.png)
 
