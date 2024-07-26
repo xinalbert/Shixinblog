@@ -2,7 +2,7 @@
  * @Author: albertxin albert_xin@qq.com
  * @Date: 2024-07-26 16:06:00
  * @LastEditors: albertxin albert_xin@qq.com
- * @LastEditTime: 2024-07-26 16:31:44
+ * @LastEditTime: 2024-07-26 18:31:33
  * @FilePath: /shixinblog/blog/linux巧用.md
  * Copyright (c) albertxin by albert_xin@qq.com, All Rights Reserved. 
 -->
@@ -31,7 +31,7 @@ comm -13 fileA.txt.sorted fileB.txt.sorted
 ```
 ## 利用sed替换字符串
 ```bash
-sed's/old/new/g' file.txt
+sed 's/old/new/g' file.txt
 ```
 
 ## 利用awk取第一列
