@@ -1,3 +1,11 @@
+<!--
+ * @Author: albertxin albert_xin@qq.com
+ * @Date: 2024-07-23 15:39:15
+ * @LastEditors: albertxin albert_xin@qq.com
+ * @LastEditTime: 2024-07-26 09:36:12
+ * @FilePath: /shixinblog/blog/2024-7-22-记录terminal.md
+ * Copyright (c) albertxin by albert_xin@qq.com, All Rights Reserved. 
+-->
 # 利用bwa-mem2 进行比对
 
 ## 安装bwa-mem2

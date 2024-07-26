@@ -1,3 +1,11 @@
+<!--
+ * @Author: albertxin albert_xin@qq.com
+ * @Date: 2024-07-23 15:39:15
+ * @LastEditors: albertxin albert_xin@qq.com
+ * @LastEditTime: 2024-07-26 09:36:17
+ * @FilePath: /shixinblog/blog/2024-7-18-记录terminal.md
+ * Copyright (c) albertxin by albert_xin@qq.com, All Rights Reserved. 
+-->
 # 利用jcvi绘制共显性图
 
 ## 安装jcvi

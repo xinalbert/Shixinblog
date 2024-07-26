@@ -1,3 +1,11 @@
+<!--
+ * @Author: albertxin albert_xin@qq.com
+ * @Date: 2024-07-21 12:36:50
+ * @LastEditors: albertxin albert_xin@qq.com
+ * @LastEditTime: 2024-07-26 09:36:23
+ * @FilePath: /shixinblog/blog/2024-7-17-记录terminal.md
+ * Copyright (c) albertxin by albert_xin@qq.com, All Rights Reserved. 
+-->
 # 记录terminal
 
 ## 批量从ebi下载sra文件
