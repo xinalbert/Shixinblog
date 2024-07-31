@@ -2,7 +2,7 @@
  * @Author: albertxin albert_xin@qq.com
  * @Date: 2024-07-26 16:06:00
  * @LastEditors: albertxin albert_xin@qq.com
- * @LastEditTime: 2024-07-26 18:31:33
+ * @LastEditTime: 2024-07-30 15:27:38
  * @FilePath: /shixinblog/blog/linux巧用.md
  * Copyright (c) albertxin by albert_xin@qq.com, All Rights Reserved. 
 -->
@@ -39,3 +39,7 @@ sed 's/old/new/g' file.txt
 awk  '{print $1}' file.txt
 ```
 
+## 查找特定格式文件的真实地址
+```bash
+find ./data/2.clean_data/ -type f -name "*.fq.gz"| while read id ;do rr $id ;done >rr_datapath.txt
+```

@@ -1,0 +1,8 @@
+# 记录terminal
+
+## 利用tophat2默认参数进行比对
+
+### 将CsaCfi转录组数据比对到CsaCsa上
+```bash
+tophat2 -p 30 ../../re-seq/rc_genome/Csa/bowtie2-index/Csa_genome_rc.fa ../../rna-seq/02.fastqfilter/CsaCfi_rnaseq_R1.fq.gz  ../../rna-seq/02.fastqfilter/CsaCfi_rnaseq_R1.fq.gz
+```
