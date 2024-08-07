@@ -1,0 +1,15 @@
+<!--
+ * @Author: albertxin albert_xin@qq.com
+ * @Date: 2024-08-07 09:58:40
+ * @LastEditors: albertxin albert_xin@qq.com
+ * @LastEditTime: 2024-08-07 10:00:17
+ * @FilePath: /shixinblog/blog/2024-08-07记录terminal
+ * Copyright (c) albertxin by albert_xin@qq.com, All Rights Reserved. 
+-->
+# 解决vcftools：Unrecognized values used for CHROM: Chr07 - Replacing with 0.问题
+
+## 利用bcftools创建chr-map文件然后利用vcftools转为plink文件
+```bash
+ bcftools view -H ../../vcf_filter/samples.pop.snp.recode.vcf |cut -f 1|uniq| awk '{print $0"\t"$0}' > samples.chrom-map.txt
+vcftools --vcf ../../vcf_filter/samples.pop.snp.recode.vcf --plink --chrom-map samples.chrom-map.txt --out samples.plink
+```
